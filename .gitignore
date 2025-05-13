@@ -1,0 +1,31 @@
+# Игнорировать файлы .pyc и кэш Python
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+# Игнорировать виртуальное окружение
+venv/
+.env/
+
+# Игнорировать логи и временные файлы
+*.log
+*.tmp
+
+# Игнорировать IDE-файлы
+.vscode/
+.idea/
+*.swp
+
+# Игнорировать конфиденциальные данные
+secrets.py
+config.ini
+
+# Игнорировать бинарные файлы (Selenium, ChromeDriver)
+chromedriver*
+geckodriver*
+*.exe
+
+# Игнорировать папки сборки
+dist/
+build/
+*.egg-info/
